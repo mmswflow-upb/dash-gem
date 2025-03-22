@@ -1,0 +1,13 @@
+runtime: nodejs20
+env: standard
+
+env_variables:
+  GEMINI_API_KEY: "AIzaSyAOEm1NVUPeNQbsRGf6AWkD6Zixy1aRHwA"
+  PORT: "8080"
+  NODE_ENV: "production"
+
+handlers:
+  - url: /static
+    static_dir: public
+  - url: /.*
+    script: auto
