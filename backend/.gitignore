@@ -25,6 +25,9 @@ logs/
 *.sln
 *.sw?
 
+
+app.yaml
+
 # Dependency specific
 yarn.lock
 
