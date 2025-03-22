@@ -41,7 +41,7 @@ app.post("/analyzeDashboardPic", upload.single("image"), async (req, res) => {
     Your task is to analyze the dashboard lights, identify potential problems with the car,
     and explain what each illuminated icon means. Provide a short diagnosis at first.
     Write short answers that can be easily understood by a non-expert. You will always remember
-    past conversations with me and my requests and pictures.
+    past conversations with me and my requests and pictures. Don't go off-topic.
     Check out the image too if there is one provided
   `;
   const combinedPrompt = userText
