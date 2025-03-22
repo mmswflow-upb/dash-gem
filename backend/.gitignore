@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# IDE or Editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency specific
+yarn.lock
+
+# Optional - if you use a database locally
+data/
+
+# Optional - if you have temporary files
+tmp/
+temp/
+
+# Optional - if you use coverage
+coverage/
+
+# Optional - if you use a specific bundler output
+out/
+
+# Optional - if you use a specific cache
+.cache/
+
+# Optional - if you use docker
+docker-compose.override.yml
+
+# Optional - if you use any other specific files
+*.sqlite
