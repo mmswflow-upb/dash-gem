@@ -31,7 +31,7 @@ const upload = multer({
 
 // --- Gemini API setup ---
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro-002" });
+const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
 // --- Route handler ---
 app.post("/analyzeDashboardPic", upload.single("image"), async (req, res) => {
